@@ -11,5 +11,6 @@ jobs:
     steps:
 
       - name: Hello
-        run: echo Hello World
-       
+        run: |
+          echo Hello World
+          echo ok thats enough
